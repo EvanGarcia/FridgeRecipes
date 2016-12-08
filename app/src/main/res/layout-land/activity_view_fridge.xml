@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_fridge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.evangarcia.fridgerecipes.ViewFridgeActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:text="@string/ViewIngredientsTextViewString"
+        android:layout_gravity="center"
+        android:id="@+id/CurrentIngredientsTextView"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/ListCurrentIngredientsScrollView">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/colorAccent"
+    android:id="@+id/ListCurrentIngredientsTextView"
+    android:textSize="15dp"/>
+
+</ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="@string/EnterIngredientToDeleteString"
+                android:id="@+id/DeleteTextView"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="@string/AddEditViewString"
+                android:id="@+id/DeleteEditText"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/DeleteString"
+            android:textColor="@color/colorAccent"
+            android:background="@android:color/white"
+            android:id="@+id/DeleteButton"/>
+
+        <Button
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ClearFridgeString"
+            android:textColor="@color/colorAccent"
+            android:background="@android:color/white"
+            android:id="@+id/ClearFridgeButton"/>
+    </LinearLayout>
+</LinearLayout>

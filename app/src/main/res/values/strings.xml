@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Fridge Recipes</string>
+    <string name="quitToast">You need internet to use this app - Closing...</string>
+    <string name="action_settings">View Fridge</string>
+    <string name="AddTextViewString">Enter Ingredient: </string>
+    <string name="DeleteTextViewString">Enter Ingredient to Delete: </string>
+    <string name="AddEditViewString">Enter Here</string>
+    <string name="AddButtonString">Add Ingredient to Fridge</string>
+    <string name="SearchAllString">Search with all ingredients from fridge</string>
+    <string name="CustomSearchTextViewString">Enter Ingredient(s): </string>
+    <string name="CustomSearchButtonString">Search by Ingredients</string>
+    <string name="ViewIngredientsTextViewString">Current Ingredients in Your Fridge</string>
+    <string name="DeleteIngredientString">Delete Ingredient</string>
+    <string name="EnterIngredientToDeleteString">Enter Ingredient to Delete</string>
+    <string name="AlreadyInFridgeString">Already in fridge</string>
+    <string name="PlsEnterSearchValueString">Please enter ingredient(s) to search</string>
+    <string name="PlsEnterIngredientString">Please enter an ingredient to add</string>
+    <string name="AddIngredientInFridgeString">Please add ingredient(s) to your fridge</string>
+    <string name="EnterOneIngredientAtATimeString">Please add only one ingredient for each entry</string>
+    <string name="DeleteString">Delete</string>
+    <string name="IngredientDeletedString">Ingredient Deleted</string>
+    <string name="ClearFridgeString">Clear Fridge</string>
+    <string name="AlreadyClearedString">Fridge Already Empty</string>
+    <string name="NotinFridgeString">Ingredient Already Not in Fridge</string>
+    <string name="FridgeClearedString">Fridge Cleared</string>
+    <string name="NothingToDelete">Nothing To Delete</string>
+    <string name="IngredientAddedString">Ingredient Added</string>
+    <string name="resultsString">Results</string>
+    <string name="needInternetString">Internet Connection Required</string>
+</resources>
